@@ -32,6 +32,6 @@ It is a design mockup of a water-system monitoring dashboard for the ASADA Ester
 Keep a dated decision log in your reply: every tactic change (new or dropped approach, tool swap, scope cut, out-of-order step) - what changed, why, and what it affects.
 
 ## Context (not for this task)
-Later this may become a live dashboard fed by a Shelly Pro 3EM (pump current/voltage/PF over MQTT) and a ParemTech PTLevel tank sensor. Not now - static mockup only.
+Later this may become a live dashboard fed by a Shelly Pro EM-50 on a single-phase 240V pump (current/voltage/PF over MQTT) and a ParemTech PTLevel tank sensor. Not now - static mockup only.
 
 - James
