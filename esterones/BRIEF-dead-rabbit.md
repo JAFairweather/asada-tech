@@ -13,9 +13,9 @@ It is a design mockup of a water-system monitoring dashboard for the ASADA Ester
 ## Requirements
 1) Deploy it as a static page at `/esterones` on nave.pub. Both `/esterones` and `/esterones/` should resolve (redirect one to the other is fine).
 2) Do not alter the sample-data labeling. It currently has:
-   - a dark full-width banner at the top: "DATOS DE EJEMPLO - NO SON LECTURAS REALES" plus an English line "Design mockup with sample data only - no live readings."
+   - a dark full-width banner at the top: "DATOS DE EJEMPLO - NO SON LECTURAS REALES" plus "Sample data only"
    - "(DATOS DE EJEMPLO)" in the `<title>`
-   - an "EJEMPLO" tag on every data card
+   - "valores de ejemplo" under the page heading
    - a footer stating all values, alerts and charts are sample data
    If any of these get lost in your deploy pipeline (templating, minification), put them back.
 3) Keep `<meta name="robots" content="noindex, nofollow">`. Also add `X-Robots-Tag: noindex` at the server if easy. Do not add the page to any sitemap or nav on nave.pub.
